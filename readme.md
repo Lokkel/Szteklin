@@ -1,9 +1,9 @@
-* Header
+# Header
 
-** Subheader
+## Subheader
 
 Text
 
-** Subheader 2
+## Subheader 2
 
 
