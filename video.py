@@ -4,7 +4,7 @@ import datetime
 
 
 t = datetime.datetime.now()
-p = '/home/pi/picam/{}.h264'.format(t)
+p = '/home/pi/milan/Szteklin/picam/{}.h264'.format(t)
 
 p = p.replace(" ","_")
 camera = PiCamera()
