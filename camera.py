@@ -7,7 +7,7 @@ t = datetime.datetime.now()
 camera = PiCamera()
 camera.start_preview()
 sleep(5)
-p = '/home/pi/picam/{}.jpg'.format(t)
+p = '/home/pi/milan/Szteklin/picam/{}.jpg'.format(t)
 p = p.replace(" ","_")
 
 
