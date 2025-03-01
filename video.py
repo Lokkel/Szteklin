@@ -6,6 +6,8 @@ import datetime
 t = datetime.datetime.now()
 p = '/home/pi/milan/Szteklin/picam/{}.h264'.format(t)
 
+#this is a test
+
 p = p.replace(" ","_")
 camera = PiCamera()
 camera.start_preview()
